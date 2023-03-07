@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import Link from "next/link";
-
+import Image from 'next/image';
 function Header() {
   return (
     <Navbar
@@ -14,6 +14,7 @@ function Header() {
             src="./images/Vekser-logo.png"
             className="img-fuild logo-size"
             alt="vekser-logo"
+            width={""}
           />
         </Link>
         <Navbar.Toggle aria-controls="navbar-nav" />

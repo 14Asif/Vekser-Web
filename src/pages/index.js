@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image';
 function Home() {
   return (
     <>
@@ -37,7 +38,7 @@ function Home() {
                 src="./images/vekser-team.png"
                 className="img-fluid"
                 alt=""
-               
+                width=""
               />
             </div>
           </div>
@@ -59,7 +60,7 @@ function Home() {
                 src="./images/business-partnership.gif"
                 className="img-fluid"
                 alt="business-partnership"
-               
+                width={""}
               />
               <h1 className="text-center b-5">Determined</h1>
               <p className="text-center b-5">
@@ -72,7 +73,7 @@ function Home() {
                 src="./images/business-growth.gif"
                 className="img-fluid"
                 alt="business growth"
-               
+                width={""}
               />
                   <h1 className="text-center b-5">Engaged</h1>
               <p className="text-center b-5">
@@ -85,7 +86,7 @@ function Home() {
                 src="./images/work-team.gif"
                 className="img-fluid"
                 alt="work-team"
-               
+                width={""}
               />
                   <h1 className="text-center b-5">Diverse</h1>
               <p className="text-center b-5">
@@ -103,16 +104,16 @@ function Home() {
                 <h1 className="text-center b-5">Incredible businesses</h1>
             </div>
             <div className="row mt-5">
-             <div className="col-md-4 text-center pt-2"><img src="./images/renesecent-logo.png" className="img-fluid logo  my-button mobile-logo responsive" alt="renesecent-logo" /></div>
-             <div className="col-md-4 text-center"><img src="./images/properties-logo.png" className="img-fluid  mobile-logo   my-button responsive logo" alt="properties-logo" /></div>
-             <div className="col-md-4 text-center pt-2"><img src="./images/Algorip-logo.png" className="img-fluid mobile-logo  my-button responsive logo" alt="Algorip-logo" /></div>
+             <div className="col-md-4 text-center pt-2"><img src="./images/renesecent-logo.png" className="img-fluid logo  my-button mobile-logo responsive" width={""} alt="renesecent-logo" /></div>
+             <div className="col-md-4 text-center"><img src="./images/properties-logo.png" className="img-fluid  mobile-logo   my-button responsive logo" width={""} alt="properties-logo" /></div>
+             <div className="col-md-4 text-center pt-2"><img src="./images/Algorip-logo.png" className="img-fluid mobile-logo  my-button responsive logo" width={""} alt="Algorip-logo" /></div>
             </div>
             <div className="row mt-5">
-             <div className="col-md-3 text-center pt-2"><img src="./images/Dadadino-logo.png" className="img-fluid  mobile-logo  my-button responsive logo" alt="renesecent-logo" /></div>
-             <div className="col-md-2 text-center pt-2"><img src="./images/sparoll-logo.png" className="img-fluid mobile-logo  my-button responsive logo" alt="properties-logo" /></div>
-             <div className="col-md-2 text-center pt-2"><img src="./images/reloship-logo.png" className="img-fluid mobile-logo   my-button responsive logo" alt="Algorip-logo" /></div>
-             <div className="col-md-2 text-center"><img src="./images/takestar-logo.png" className="img-fluid  mobile-logo  my-button responsive logo" alt="Algorip-logo" /></div>
-             <div className="col-md-3 text-center"><img src="./images/haload-logo.png" className="img-fluid mobile-logo   my-button responsive logo" alt="Algorip-logo"  /></div>
+             <div className="col-md-3 text-center pt-2"><img src="./images/Dadadino-logo.png" className="img-fluid  mobile-logo  my-button responsive logo" width={""} alt="renesecent-logo" /></div>
+             <div className="col-md-2 text-center pt-2"><img src="./images/sparoll-logo.png" className="img-fluid mobile-logo  my-button responsive logo" width={""} alt="properties-logo" /></div>
+             <div className="col-md-2 text-center pt-2"><img src="./images/reloship-logo.png" className="img-fluid mobile-logo   my-button responsive logo" width={""} alt="Algorip-logo" /></div>
+             <div className="col-md-2 text-center"><img src="./images/takestar-logo.png" className="img-fluid  mobile-logo  my-button responsive logo" width={""} alt="Algorip-logo" /></div>
+             <div className="col-md-3 text-center"><img src="./images/haload-logo.png" className="img-fluid mobile-logo   my-button responsive logo" width={""} alt="Algorip-logo"  /></div>
             </div>
             <div className="row mt-5">
                 <div className="text-center"> 

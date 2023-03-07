@@ -1,6 +1,4 @@
 import React from "react";
-// import "../styles/footer.css";
-// import '@/styles/footer.module.css';
 import Link from "next/link";
 function footer() {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
-import Head from 'next/head'
+import Head from 'next/head';
+import Image from "next/image";
 function Career() {
   return (
     <div>
@@ -101,7 +102,7 @@ function Career() {
               </p>
             </div>
             <div className="col-md-6">
-              <img
+              <Image
                 src="images/career-team.webp"
                 alt="career-team"
                 className="img-fluid"
@@ -110,7 +111,7 @@ function Career() {
           </div>
           <div className="row pt-5">
             <div className="col-md-6">
-              <img
+              <Image
                 src="images/communication.jpg"
                 alt="career-team"
                 className="img-fluid"
@@ -138,7 +139,7 @@ function Career() {
               </p>
             </div>
             <div className="col-md-6">
-              <img
+              <Image
                 src="images/teams.webp"
                 alt="career-team"
                 className="img-fluid"
