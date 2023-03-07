@@ -146,7 +146,7 @@ function Invest() {
                 passHref
                 className="btn my-button btn-primary"
               >
-                Invest with us
+              News and Matters
               </Link>
             </div>
           </div>
