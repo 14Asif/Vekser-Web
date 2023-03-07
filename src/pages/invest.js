@@ -12,7 +12,7 @@ function Invest() {
       </Head>
       <section className="section">
         <div className="banner">
-          <img src="./images/invest-bannere.png" alt="Invest Banner image" />
+          <img src="./images/invest-banner.png" alt="Invest Banner image" />
           <div className="banner-text">
             <h1>
               Why hold a <br />

@@ -18,7 +18,7 @@ function About() {
           <div className="row">
             <div className="col-md-6 pt-5">
               <h1 className="b-5">Some background</h1>
-              <p className="b-5 pt-3">
+              <p className="pfont pt-3">
                 Founded in Miami, Florida, in 2022, Vekser is a venture capital
                 firm that backs disruptive entrepreneurs that are bold and
                 courageous in taking on big industries and distrusting the
@@ -46,7 +46,7 @@ function About() {
             </div>
             <div className="col-md-6">
               <h1 className="b-5">Reimagining capital investments</h1>
-              <p className="b-5">
+              <p className="b-5 pfont">
                 John Daniel (October 30, 1980) is a real estate and technology
                 Investor in disruptive businesses. An Innovative leader with
                 over 25 years in business with multiple successful exits in
@@ -80,7 +80,7 @@ function About() {
               Supporting visionary founders <br /> in achieving their radical
               ideas.​
             </h1>
-            <p className="mb-5">
+            <p className="pfont mb-5">
               Our aim is to make an impact with companies that solve social and
               <br />
               economic issues and will help define a new era of technology.
@@ -91,11 +91,14 @@ function About() {
               portfolio companies to grow their businesses globally
             </p>
           </div>
-          <div className="btn-center">
-          <Link href="/contact" passHref className="btn btn-primary my-button">
+          <div className="row mt-5">
+            <div className="text-center">
+            <Link href="/contact" passHref className="btn btn-primary my-button">
               Invest with us
             </Link>
+            </div>
           </div>
+    
         </div>
       </section>
     </div>
