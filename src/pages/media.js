@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 function Media() {
   return (
     <div>
@@ -15,35 +16,53 @@ function Media() {
           </div>
           <div className="d-flex flex-wrap justify-content-center">
             <div className="d-flex flex-column">
-              <img
+              <Image
                 className="img1 img-fluid rounded"
-                src="./images/media-3.jpg"
+                src="/images/media-3.webp"
+                width={500}
+                height={500}
+                priority 
               />
-              <img
+              <Image
                 className="img1 img-fluid rounded"
-                src="./images/media-1.jpg"
-              />
-            </div>
-
-            <div className="d-flex flex-column">
-              <img
-                className="img1 img-fluid rounded"
-                src="./images/media-2.jpg"
-              />
-              <img
-                className="img1 img-fluid rounded"
-                src="./images/media-4.png"
+                src="/images/media-1.webp"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
 
             <div className="d-flex flex-column">
-              <img
+              <Image
                 className="img1 img-fluid rounded"
-                src="./images/media-1.jpg"
+                src="/images/media-2.webp"
+                width={500}
+                height={500}
+                priority 
               />
-              <img
+              <Image
                 className="img1 img-fluid rounded"
-                src="./images/media-3.jpg"
+                src="/images/media-4.png"
+                width={500}
+                height={500}
+                priority 
+              />
+            </div>
+
+            <div className="d-flex flex-column">
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-1.webp"
+                width={500}
+                height={500}
+                priority 
+              />
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-3.webp"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
           </div>

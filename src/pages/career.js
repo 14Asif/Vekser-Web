@@ -102,19 +102,25 @@ function Career() {
               </p>
             </div>
             <div className="col-md-6">
-              <img
-                src="images/career-team.webp"
+              <Image
+                src="/images/career-team.webp"
                 alt="career-team"
                 className="img-fluid"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
           </div>
           <div className="row pt-5">
             <div className="col-md-6">
-              <img
-                src="images/communication.jpg"
+              <Image
+                src="/images/communication.jpg"
                 alt="career-team"
                 className="img-fluid"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
             <div className="col-md-6 pt-5">
@@ -139,10 +145,13 @@ function Career() {
               </p>
             </div>
             <div className="col-md-6">
-              <img
-                src="images/teams.webp"
+              <Image
+                src="/images/teams.webp"
                 alt="career-team"
                 className="img-fluid"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
           </div>

@@ -19,10 +19,13 @@ function Portfolio() {
             <div className="col-md-4 ">
               <div className="card p-4 divsize">
                 <div className="text-center">
-                  <img
-                    src="./images/renesecent-logo.png"
+                  <Image
+                    src="/images/renesecent-logo.webp"
                     className="img-fluid my-button"
                     alt="renescent"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">On Demand Logistics</h5>
                   <p className="b-5 hovereffect">
@@ -35,10 +38,13 @@ function Portfolio() {
             <div className="col-md-4 ">
               <div className="card p-4 divsize">
                 <div className="text-center">
-                  <img
-                    src="./images/properties-logo.png"
+                  <Image
+                    src="/images/properties-logo.webp"
                     className="img-fluid my-button logo"
                     alt="prroperties"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">
                     Real estate,property,rentals and management
@@ -53,10 +59,13 @@ function Portfolio() {
             <div className="col-md-4 ">
               <div className="card p-4 divsize">
                 <div className="text-center">
-                  <img
-                    src="./images/Algorip-logo.png"
+                  <Image
+                    src="/images/Algorip-logo.webp"
                     className="img-fluid my-button"
                     alt="Algorip"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">
                     Software,Internet,Technology
@@ -73,10 +82,13 @@ function Portfolio() {
             <div className="col-md-4 ">
               <div className="card p-4 divsize1">
                 <div className="text-center">
-                  <img
-                    src="./images/reloship-logo.png"
+                  <Image
+                    src="/images/reloship-logo.webp"
                     className="img-fluid my-button"
                     alt="reloship"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">
                     Global Logistics and Supply Chain
@@ -88,10 +100,13 @@ function Portfolio() {
             <div className="col-md-4 ">
               <div className="card p-4 divsize1">
                 <div className="text-center">
-                  <img
-                    src="./images/Dadadino-logo.png"
+                  <Image
+                    src="/images/Dadadino-logo.webp"
                     className="img-fluid my-button logo"
                     alt="dandino"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">
                     High-end men's and Women's Apparel
@@ -103,10 +118,13 @@ function Portfolio() {
             <div className="col-md-4 ">
               <div className="card p-4">
                 <div className="text-center divsize2">
-                  <img
-                    src="./images/sparoll-logo.png"
+                  <Image
+                    src="/images/sparoll-logo.webp"
                     className="img-fluid my-button"
                     alt="sparoll"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">On-demand spa and beauty</h5>
                   <p className="b-5 hovereffect">Founded 2007 -2010 Exit.</p>
@@ -118,10 +136,13 @@ function Portfolio() {
             <div className="col-md-6">
               <div className="card p-4">
                 <div className="text-center divsize3 ">
-                  <img
-                    src="./images/takestar-logo.png"
+                  <Image
+                    src="/images/takestar-logo.webp"
                     className="img-fluid my-button my-button"
                     alt="takestar"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">
                     On-demand moving and delivery
@@ -133,10 +154,13 @@ function Portfolio() {
             <div className="col-md-6">
               <div className="card p-4 divsize">
                 <div className="text-center">
-                  <img
-                    src="./images/haload-logo.png"
+                  <Image
+                    src="/images/haload-logo.webp"
                     className="img-fluid my-button my-button"
-                    alt="takestar"
+                    alt="haload"
+                    width={500}
+                    height={500}
+                    priority 
                   />
                   <h5 className="b-5 hovereffect1">
                     Instant logistic quote online

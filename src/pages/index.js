@@ -37,11 +37,13 @@ function Home() {
     
             </div>
             <div className="col-md-6">
-              <img
-                src="./images/vekser-team.png"
+              <Image
+                src="/images/vekser-team.png"
                 className="img-fluid"
-                alt=""
-                width=""
+                alt="vekser-team"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
           </div>
@@ -60,11 +62,13 @@ function Home() {
         
           <div className="row">
             <div className="col-md-4">
-              <img
-                src="./images/business-partnership.gif"
+              <Image
+                src="/images/business-partnership.gif"
                 className="img-fluid"
                 alt="business-partnership"
-                width={""}
+                width={500}
+                height={500}
+                priority 
               />
               <h1 className="text-center b-5">Determined</h1>
               <p className="text-center b-5">
@@ -73,11 +77,13 @@ function Home() {
               </p>
             </div>
             <div className="col-md-4">
-              <img
-                src="./images/business-growth.gif"
+              <Image
+                src="/images/business-growth.gif"
                 className="img-fluid"
                 alt="business growth"
-                width={""}
+                width={500}
+                height={500}
+                priority 
               />
                   <h1 className="text-center b-5">Engaged</h1>
               <p className="text-center b-5">
@@ -86,11 +92,13 @@ function Home() {
               </p>
             </div>
             <div className="col-md-4">
-              <img
-                src="./images/work-team.gif"
+              <Image
+                src="/images/work-team.gif"
                 className="img-fluid"
                 alt="work-team"
-                width={""}
+                width={500}
+                height={500}
+                priority 
               />
                   <h1 className="text-center b-5">Diverse</h1>
               <p className="text-center b-5">
@@ -113,16 +121,32 @@ function Home() {
                 <h1 className="text-center b-5">Incredible businesses</h1>
             </div>
             <div className="row mt-5">
-             <div className="col-md-4 text-center pt-2"><img src="./images/renesecent-logo.png" className="img-fluid logo  my-button mobile-logo responsive" width={""} alt="renesecent-logo" /></div>
-             <div className="col-md-4 text-center"><img src="./images/properties-logo.png" className="img-fluid  mobile-logo   my-button responsive logo" width={""} alt="properties-logo" /></div>
-             <div className="col-md-4 text-center pt-2"><img src="./images/Algorip-logo.png" className="img-fluid mobile-logo  my-button responsive logo" width={""} alt="Algorip-logo" /></div>
+             <div className="col-md-4 text-center pt-2"><Image src="/images/renesecent-logo.png" className="img-fluid logo  my-button mobile-logo responsive"   width={500}
+                height={500}
+                priority  alt="renesecent-logo" /></div>
+             <div className="col-md-4 text-center"><Image src="/images/properties-logo.png" className="img-fluid  mobile-logo   my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="properties-logo" /></div>
+             <div className="col-md-4 text-center pt-2"><Image src="/images/Algorip-logo.png" className="img-fluid mobile-logo  my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="Algorip-logo" /></div>
             </div>
             <div className="row mt-5">
-             <div className="col-md-3 text-center pt-2"><img src="./images/Dadadino-logo.png" className="img-fluid  mobile-logo  my-button responsive logo" width={""} alt="renesecent-logo" /></div>
-             <div className="col-md-2 text-center pt-2"><img src="./images/sparoll-logo.png" className="img-fluid mobile-logo  my-button responsive logo" width={""} alt="properties-logo" /></div>
-             <div className="col-md-2 text-center pt-2"><img src="./images/reloship-logo.png" className="img-fluid mobile-logo   my-button responsive logo" width={""} alt="Algorip-logo" /></div>
-             <div className="col-md-2 text-center"><img src="./images/takestar-logo.png" className="img-fluid  mobile-logo  my-button responsive logo" width={""} alt="Algorip-logo" /></div>
-             <div className="col-md-3 text-center"><img src="./images/haload-logo.png" className="img-fluid mobile-logo   my-button responsive logo" width={""} alt="Algorip-logo"  /></div>
+             <div className="col-md-3 text-center pt-2"><Image src="/images/Dadadino-logo.png" className="img-fluid  mobile-logo  my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="renesecent-logo" /></div>
+             <div className="col-md-2 text-center pt-2"><Image src="/images/sparoll-logo.png" className="img-fluid mobile-logo  my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="properties-logo" /></div>
+             <div className="col-md-2 text-center pt-2"><Image src="/images/reloship-logo.png" className="img-fluid mobile-logo   my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="Algorip-logo" /></div>
+             <div className="col-md-2 text-center"><Image src="/images/takestar-logo.png" className="img-fluid  mobile-logo  my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="Algorip-logo" /></div>
+             <div className="col-md-3 text-center"><Image src="/images/haload-logo.png" className="img-fluid mobile-logo   my-button responsive logo"   width={500}
+                height={500}
+                priority  alt="Algorip-logo"  /></div>
             </div>
             <div className="row mt-5">
                 <div className="text-center"> 
@@ -140,10 +164,14 @@ function Home() {
             <div className="row">
                
                 <div className="col-md-5">
-                    <img src="./images/forbes.png" className="img-fluid my-button" alt="forbes" />
+                    <Image src="/images/forbes.png" className="img-fluid my-button"   width={500}
+                height={500}
+                priority  alt="forbes" />
                 </div>
                 <div className="col-md-5">
-                <img src="./images/huffspot.png" className="img-fluid my-button" alt="huffspot" />
+                <Image src="/images/huffspot.png" className="img-fluid my-button"   width={500}
+                height={500}
+                priority  alt="huffspot" />
                 </div>
               
                 

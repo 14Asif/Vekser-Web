@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import Head from 'next/head';
-import Image from 'next/image';
 import axios from "axios";
 function Contact() {
   const [formData, setFormData] = useState({

@@ -29,10 +29,13 @@ function About() {
               </p>
             </div>
             <div className="col-md-6">
-              <img
-                src="./images/vekser-team.png"
+              <Image
+                src="/images/vekser-team.webp"
                 alt="vekser-team"
                 className="img-fluid"
+                width={500}
+                height={500}
+                priority
               />
             </div>
           </div>
@@ -42,7 +45,10 @@ function About() {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <img src="./images/John Daniel.png" alt="John Daniel" />
+              <Image src="/images/John Daniel.webp" className="img-fluid" alt="John Daniel"  width={400}
+                height={600}
+                priority 
+                />
             </div>
             <div className="col-md-6">
               <h1 className="b-5">Reimagining capital investments</h1>
@@ -91,13 +97,13 @@ function About() {
               portfolio companies to grow their businesses globally
             </p>
           </div>
-          {/* <div className="row mt-5">
+          <div className="row mt-5">
             <div className="text-center">
             <Link href="/contact" passHref className="btn btn-primary my-button">
               Invest with us
             </Link>
             </div>
-          </div> */}
+          </div>
     
         </div>
       </section>

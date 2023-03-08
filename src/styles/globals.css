@@ -359,7 +359,9 @@ font-weight: bolder;
   font-weight:bold;
   }
   
-  
+  .banner-button{
+    left: 20% !important;
+  }
   .text-style-grow{ 
        max-width: 492px;
       color: rgba(25, 145, 255, 1);
@@ -431,7 +433,7 @@ font-family: "League Spartan", sans-serif;
 .banner-button {
   position: absolute;
   top: 90%;
-  left: 20%;
+  left: 12%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: black;

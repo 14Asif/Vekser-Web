@@ -12,7 +12,9 @@ function Invest() {
       </Head>
       <section className="section">
         <div className="banner">
-          <img src="./images/invest-banner.png" alt="Invest Banner image" />
+          <Image src="/images/banner-invest.webp" alt="Invest Banner image"   width={500}
+                height={500}
+                priority  />
           <div className="banner-text">
             <h1>
               Why hold a <br />
@@ -73,10 +75,13 @@ function Invest() {
               </div>
             </div>
             <div class="col-md-4 mt-5">
-              <img
-                src="./images/invest-page-graphic.png"
+              <Image
+                src="/images/invest-page-graphic.webp"
                 className="img-fluid"
                 alt="invest-graphic"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
           </div>
@@ -105,10 +110,13 @@ function Invest() {
               <h2 className="div-7">ONE</h2>
             </div>
             <div className="col-md-6">
-              <img
-                src="./images/you-might-be-the-one.png"
+              <Image
+                src="/images/you-might-be-the-one.webp"
                 className="img-fluid"
                 alt="invest-graphic"
+                width={500}
+                height={500}
+                priority 
               />
             </div>
           </div>
