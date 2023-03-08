@@ -148,8 +148,8 @@ function Portfolio() {
           </div>
           <div className="row mt-5">
             <div className="text-center">
-            <Link href="/invest" passHref className="btn btn-primary my-button">
-              News and Matters
+            <Link href="/media" passHref className="btn btn-primary my-button">
+              View Gallery
             </Link>
             </div>
           </div>

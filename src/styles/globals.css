@@ -24,7 +24,7 @@ font-size:40px ;
 /* @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"); */
 
 section {
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 section .section-title {
@@ -151,7 +151,7 @@ h1.b-5 {
 
 button.btn.btn-primary {
 
-background-color: #198cef;
+  background-color: #5371E9;
 color:white;
 font-size: larger;
 font-weight: bolder;
@@ -162,11 +162,17 @@ transform: scale(1.2);
 cursor: pointer;
 
 }
+/* .my-button:hover {
+   transform: scale(1.2);
+  cursor: pointer;
 
+  transition-duration: .3s;
+    transition-property: transform;
+
+} */
 a.btn.btn-primary {
 
-
-background-color: #198cef;
+  background-color: #5371E9;
 color:white;
 font-size: larger;
 font-weight: bolder;
@@ -275,9 +281,17 @@ font-weight: bolder;
   height: 250px;
   
 }
-.my-button:hover {
+/* .my-button:hover {
   transform: scale(1.2);
   cursor: pointer;
+
+} */
+.my-button:hover {
+  /* transform: scale(1.2);
+  cursor: pointer; */ 
+  /* yash */
+  transition-duration: .3s;
+    transition-property: transform;
 
 }
 /* About US page css */
@@ -285,8 +299,13 @@ font-weight: bolder;
 /* Invest css
  */
  .banner {
-  position: relative;
+  /* position: relative;
   width: 100%;
+  margin-top: -60px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   margin-top: -60px;
 }
 
@@ -332,7 +351,13 @@ font-weight: bolder;
     font-size: 1.8em;
     margin-bottom: 0.5em;
   }
-  
+  a.btn.btn-primary {
+
+  background-color: #5371E9;
+  color:white;
+  font-size:small !important;
+  font-weight:bold;
+  }
   
   
   .text-style-grow{ 
@@ -400,4 +425,14 @@ font-family: "League Spartan", sans-serif;
 
 .pfont{
   font-weight: bolder;
+}
+
+/* bannner button */
+.banner-button {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
 }

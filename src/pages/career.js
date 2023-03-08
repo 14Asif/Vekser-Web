@@ -127,7 +127,7 @@ function Career() {
               </p>
             </div>
           </div>
-          <div className="row pt-5">
+          <div className="row pt-5 mb-5">
             <div className="col-md-6 pt-5">
               <h3>The Communication</h3>
               <p>

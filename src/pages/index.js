@@ -15,6 +15,11 @@ function Home() {
     <div>
       <div className="video-container">
         <video src="./video/satyam.mp4" className='video' autoPlay loop muted playsInline />
+        <div className="banner-button">
+        <Link href="/invest" passHref className="btn my-button btn-primary">
+           Get Started Today
+              </Link>
+          </div>
       </div>
       <section className="section">
         <div className="container">
@@ -29,9 +34,7 @@ function Home() {
                 innovative ideas into successful businesses through education,
                 mentorship, and direct investments.
               </p>
-              <Link href="/about" passHref className="btn my-button btn-primary">
-                Learn More
-              </Link>
+    
             </div>
             <div className="col-md-6">
               <img
@@ -54,6 +57,7 @@ function Home() {
               </h1>
             </div>
           </div>
+        
           <div className="row">
             <div className="col-md-4">
               <img
@@ -96,6 +100,11 @@ function Home() {
               </p>
             </div>
           </div>
+          <div className="row mt-5">
+                <div className="text-center"> 
+                <Link href="/about" passHref className="btn my-button btn-primary">Learn More</Link>
+                </div>
+            </div>
         </div>
       </section>
       <section>
@@ -138,6 +147,11 @@ function Home() {
                 </div>
               
                 
+            </div>
+            <div className="row mt-5 mb-5">
+                <div className="text-center"> 
+                <Link href="/media" passHref className="btn my-button btn-primary">View Gallery</Link>
+                </div>
             </div>
         </div>
       </section>

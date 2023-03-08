@@ -139,14 +139,14 @@ function Invest() {
               </p>
             </div>
           </div>
-          <div className="row mt-5">
+          <div className="row mt-5 mb-5">
             <div className="text-center">
               <Link
-                href="/contact"
+                href="/media"
                 passHref
                 className="btn my-button btn-primary"
               >
-              News and Matters
+            View Gallery
               </Link>
             </div>
           </div>

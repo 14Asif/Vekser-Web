@@ -1,7 +1,43 @@
-import React from "react";
+import React,{useState} from "react";
 import Head from 'next/head';
 import Image from 'next/image';
+import axios from "axios";
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [submitting, setSubmitting] = useState(false);
+  const handleSubmit = async(event) => {
+    event.preventDefault();
+        // prevent multiple form submissions
+        if (submitting) {
+          return;
+        }
+        setSubmitting(true);
+        try {
+          const url="http://localhost:80/vekserapi/contact.php";
+          const jsonData = JSON.stringify(formData);
+          // const response = await axios.post('/submit-form.php', formData);
+    const response= await axios.post(url, jsonData, {
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+          console.log(response);
+        } catch (error) {
+          console.error(error);
+        } finally {
+          setSubmitting(false);
+        }
+      };
+      const handleChange = (event) => {
+        setFormData({
+          ...formData,
+          [event.target.name]: event.target.value,
+        });
+      };
   return (
     <div>
         <Head>
@@ -14,7 +50,7 @@ function Contact() {
           <div className="row">
             <h1 className="text-center mb-5 b-5">Get in touch</h1>
             <div className="card p-4 card-box">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <h4 className="p-4 b-3">
                   Have a question or comment? Use the form below to send us a
                   message or contact us by mail:
@@ -27,7 +63,10 @@ function Contact() {
                     type="text"
                     className="form-control"
                     id="exampleInputName"
-                    placeholder="Password"
+                    placeholder="Name"
+                    name="name"
+                    required
+                    value={formData.name} onChange={handleChange}
                   />
                 </div>
                 <div className="form-group p-4">
@@ -40,6 +79,9 @@ function Contact() {
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="Enter email"
+                    name="email"
+                    value={formData.email} onChange={handleChange}
+                    required
                   />
                 </div>
                 <div className="form-group p-4">
@@ -50,11 +92,14 @@ function Contact() {
                     className="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
+                    name="message"
+                    value={formData.message} onChange={handleChange}
+                    required
                   ></textarea>
                 </div>
                 <div className="form-group">
-                  <button type="submit" className="btn btn-primary">
-                    Submit
+                  <button type="submit" disabled={submitting} className='btn btn-primary'>
+                  {submitting ? 'Submitting...' : 'Submit'}
                   </button>
                 </div>
               </form>
@@ -154,7 +199,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5 mb-5">
               <div className="col-md-6">
                 <div className="card card-box p-4">
                   <h3>LIMA</h3>

@@ -91,13 +91,13 @@ function About() {
               portfolio companies to grow their businesses globally
             </p>
           </div>
-          <div className="row mt-5">
+          {/* <div className="row mt-5">
             <div className="text-center">
             <Link href="/contact" passHref className="btn btn-primary my-button">
               Invest with us
             </Link>
             </div>
-          </div>
+          </div> */}
     
         </div>
       </section>
