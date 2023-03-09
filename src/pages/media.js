@@ -42,7 +42,7 @@ function Media() {
               />
               <Image
                 className="img1 img-fluid rounded"
-                src="/images/media-4.png"
+                src="/images/media-4.webp"
                 width={300}
                 height={300}
                 priority 

@@ -14,15 +14,15 @@ function Home() {
 
     <div>
       <div className="video-container">
-        {/* <video src="./video/satyam.mp4" className='video' autoPlay loop muted playsInline /> */}
-        <Image
+        <video src="./video/satyam.mp4" className='video' autoPlay loop muted playsInline />
+        {/* <Image
                 src="/images/vekser landing page.gif"
                 className="img-fluid video"
                 alt="vekser-team"
                 width={500}
                 height={500}
                 priority 
-              />
+              /> */}
       </div>
       <section className="section">
         <div className="container">
@@ -125,7 +125,7 @@ function Home() {
       <section>
         <div className="container">
             <div className="row">
-                <h1 className="text-center b-5">Incredible businesses</h1>
+                <h1 className="text-center b-5">Incredible Investments</h1>
             </div>
           
             <div className="row mt-5">
