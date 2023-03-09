@@ -17,48 +17,53 @@ function Portfolio() {
           </div>
           <div className="row mt-5">
             <div className="col-md-4 ">
-              <div className="card p-4 divsize">
-                <div className="text-center">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center logodiv">
                   <Image
-                    src="/images/renesecent-logo.webp"
+                    src="/images/clevertone logo black webp.webp"
                     className="img-fluid my-button"
-                    alt="renescent"
-                    width={500}
-                    height={500}
+                    alt="clevertone"
+                    width={135}
+                    height={150}
                     priority 
                   />
-                  <h5 className="b-5 hovereffect1">On Demand Logistics</h5>
+                  </div>
+                  <div className="pt-4">
+                  <h5 className="b-5 pt-2 hovereffect1">On-demand 24/7 AI & talented workforce to manage your day to day
+</h5>
                   <p className="b-5 hovereffect">
-                    Connecting customers with background-checked independent
-                    drivers and storage providers.
+                    Coming Soon
                   </p>
-                </div>
+                  </div>
+                 
+                
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card p-4 divsize">
-                <div className="text-center">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center logodiv">
                   <Image
-                    src="/images/properties-logo.webp"
+                    src="/images/trelegate logo webp.webp"
                     className="img-fluid my-button logo"
                     alt="prroperties"
-                    width={500}
-                    height={500}
+                    width={250}
+                    height={250}
                     priority 
                   />
+                     </div>
+                     <div className="pt-4">
                   <h5 className="b-5 hovereffect1">
-                    Real estate,property,rentals and management
+                  Order wholesale products directly from verified suppliers
                   </h5>
                   <p className="b-5 hovereffect">
-                    Best place to find ready-to-move residential and commercial
-                    properties.
+                  Coming Soon 
                   </p>
-                </div>
+             </div>
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card p-4 divsize">
-                <div className="text-center">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center logodiv">
                   <Image
                     src="/images/Algorip-logo.webp"
                     className="img-fluid my-button"
@@ -67,6 +72,8 @@ function Portfolio() {
                     height={500}
                     priority 
                   />
+                      </div>
+                      <div className="pt-4">
                   <h5 className="b-5 hovereffect1">
                     Software,Internet,Technology
                   </h5>
@@ -74,13 +81,174 @@ function Portfolio() {
                     All-in-one platform that proactive automates and manages
                     your complete online presence.
                   </p>
+                  </div>
+            
+              </div>
+            </div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-md-4 ">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center logodiv">
+                  <Image
+                    src="/images/renesecent-logo.webp"
+                    className="img-fluid mt-3 my-button"
+                    alt="renescent"
+                    width={200}
+                    height={500}
+                    priority 
+                  />
+                    </div>
+                    <div className="pt-4">
+                  <h5 className="b-5 hovereffect1">On Demand Logistics</h5>
+                  <p className="b-5 hovereffect">
+                    Connecting customers with background-checked independent
+                    drivers and storage providers.
+                  </p>
+              </div>
+              </div>
+            </div>
+            <div className="col-md-4 ">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center logodiv">
+                  <Image
+                    src="/images/properties-logo.webp"
+                    className="img-fluid my-button"
+                    alt="prroperties"
+                    width={150}
+                    height={100}
+                    priority 
+                  />
+                     </div>
+                     <div className="pt-4">
+                  <h5 className="b-5 hovereffect1">
+                    Real estate,property,rentals and management
+                  </h5>
+                  <p className="b-5 hovereffect">
+                    Best place to find ready-to-move residential and commercial
+                    properties.
+                  </p>
+             </div>
+              </div>
+            </div>
+            <div className="col-md-4 ">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center mt-5">
+                  <Image
+                    src="/images/reloship-logo.webp"
+                    className="img-fluid my-button"
+                    alt="Algorip"
+                    width={150}
+                    height={150}
+                    priority 
+                  />
+                    <div className="pt-5">
+                   <h5 className="b-5 hovereffect1">
+                    Global Logistics and Supply Chain
+                  </h5>
+                  <p className="b-5 hovereffect">Founded 2007 -2010 Exit.</p>
+                </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="row mt-5">
             <div className="col-md-4 ">
-              <div className="card p-4 divsize1">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center logodiv">
+                  <Image
+                    src="/images/Dadadino-logo.webp"
+                    className="img-fluid mt-3 my-button"
+                    alt="renescent"
+                    width={200}
+                    height={500}
+                    priority 
+                  />
+                    </div>
+                    <div className="pt-4">
+                  <h5 className="b-5 hovereffect1"> High-end men's and Women's Apparel</h5>
+                  <p className="b-5 hovereffect">
+                  Founded 2007 -2010 Exit.
+                  </p>
+              </div>
+              </div>
+            </div>
+            <div className="col-md-4 ">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center pt-4 logodiv">
+                  <Image
+                    src="/images/sparoll-logo.webp"
+                    className="img-fluid my-button"
+                    alt="prroperties"
+                    width={150}
+                    height={100}
+                    priority 
+                  />
+                     </div>
+                     <div className="pt-4">
+                  <h5 className="b-5 hovereffect1">
+                  On-demand spa and beauty
+                  </h5>
+                  <p className="b-5 hovereffect">
+                  Founded 2007 -2010 Exit.
+                  </p>
+             </div>
+              </div>
+            </div>
+            <div className="col-md-4 ">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center pt-4">
+                  <Image
+                    src="/images/takestar-logo.webp"
+                    className="img-fluid my-button"
+                    alt="Algorip"
+                    width={150}
+                    height={150}
+                    priority 
+                  />
+                    <div className="pt-5">
+                   <h5 className="b-5 hovereffect1">
+                    Global Logistics and Supply Chain
+                  </h5>
+                  <p className="b-5 hovereffect">Founded 2007 -2010 Exit.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-md-4 ">
+             
+            </div>
+            <div className="col-md-4 ">
+              <div className="card card-box p-4 divsize">
+                <div className="text-center pt-4 logodiv">
+                  <Image
+                    src="/images/haload-logo.webp"
+                    className="img-fluid my-button"
+                    alt="prroperties"
+                    width={150}
+                    height={100}
+                    priority 
+                  />
+                     </div>
+                     <div className="pt-4">
+                  <h5 className="b-5 hovereffect1">
+                  On-demand spa and beauty
+                  </h5>
+                  <p className="b-5 hovereffect">
+                  Founded 2007 -2010 Exit.
+                  </p>
+             </div>
+              </div>
+            </div>
+            <div className="col-md-4 ">
+             
+            </div>
+          </div>
+          {/* <div className="row mt-5">
+            <div className="col-md-4 ">
+              <div className="card  card-box p-4 divsize1">
                 <div className="text-center">
                   <Image
                     src="/images/reloship-logo.webp"
@@ -91,14 +259,14 @@ function Portfolio() {
                     priority 
                   />
                   <h5 className="b-5 hovereffect1">
-                    Global Logistics and Supply Chain
+                  High-end men's and Women's Apparel
                   </h5>
                   <p className="b-5 hovereffect">Founded 2007 -2010 Exit.</p>
                 </div>
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card p-4 divsize1">
+              <div className="card ">
                 <div className="text-center">
                   <Image
                     src="/images/Dadadino-logo.webp"
@@ -131,8 +299,9 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row mt-5">
+          </div> */}
+          
+          {/* <div className="row mt-5">
             <div className="col-md-6">
               <div className="card p-4">
                 <div className="text-center divsize3 ">
@@ -169,8 +338,8 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row mt-5">
+          </div> */}
+          <div className="row mt-5 mb-5">
             <div className="text-center">
             <Link href="/media" passHref className="btn btn-primary my-button">
               View Gallery
@@ -180,6 +349,8 @@ function Portfolio() {
       
           
         </div>
+     
+
       </section>
     </div>
   );

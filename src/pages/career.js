@@ -12,7 +12,7 @@ function Career() {
       <section className="section first-text">
         <div className="container ">
           <div className="row">
-            <h1 className="b-5 text-center head-text">Join Us</h1>
+            <h1 className=" text-center head-text">Join Us</h1>
             <p className="b-5 pt-3 pb-5 text-center">
               Looking out for enthusiastic people who are highly driven,
               <br />

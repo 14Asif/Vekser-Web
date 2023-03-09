@@ -19,15 +19,15 @@ function Media() {
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-3.webp"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 priority 
               />
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-1.webp"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 priority 
               />
             </div>
@@ -36,15 +36,15 @@ function Media() {
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-2.webp"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 priority 
               />
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-4.png"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 priority 
               />
             </div>
@@ -53,15 +53,15 @@ function Media() {
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-1.webp"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 priority 
               />
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-3.webp"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
                 priority 
               />
             </div>

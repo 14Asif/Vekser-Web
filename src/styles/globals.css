@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'john, Sans-serif';
   src: url('../fonts/AeonikPro-Bold.woff') format('truetype');
   font-weight: normal;
@@ -9,14 +9,16 @@
   src: url('../fonts/AeonikPro-Regular.woff') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 p{
-  font-family: 'vekser, Sans-serif';
-  font-weight: 500;
+  font-family:  "League Spartan", sans-serif;
+  font-weight: 400;
+ 
 }
 h1,h2,h3,h4,h5 {
-  font-family:'john, Sans-serif';
+  font-family: "League Spartan", sans-serif;
 }
+
 h2{
 font-size:40px ;
 }
@@ -100,7 +102,7 @@ section .section-title {
 
 .navtext {
   /* set the default style */
-  font-weight: 700 !important;
+  font-weight: 400 !important;
   color: black !important;
 }
 .navbg{
@@ -109,9 +111,9 @@ background-color: white !important;
 .logo-size{
   width:175px;
 }
-.p-font{
+/* .p-font{
   font-weight: bolder;
-}
+} */
 
 /* apply the style on hover */
 .navtext:hover {
@@ -203,19 +205,16 @@ font-weight: bolder;
   object-fit: cover;
 }
 
-/* Contact Page CSS */
-.card-box {
-    box-shadow: 0px -7px 4px -7px gray;
-  }
+
 /* Career page CSS */
 .card-box {
-  box-shadow: -10px -7px 4px 0px grey;
+  box-shadow: -10px -7px 20px -5px grey;
 }
 .text-deco{
   text-decoration: none;
 }
 .head-text{
-  font-size: 109px;
+  font-size: 45px;
 }
 .first-text {
   
@@ -437,4 +436,19 @@ font-family: "League Spartan", sans-serif;
   transform: translate(-50%, -50%);
   text-align: center;
   color: black;
+}
+/* Text Align */
+/* .textalign{
+text-align: justify !important;
+} */
+
+.logo{
+  margin-top: 60px;
+}
+
+.logodiv{
+  height: 100px;
+}
+.danlogo{
+  margin-top:78px !important;
 }

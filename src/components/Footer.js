@@ -37,16 +37,26 @@ function footer() {
               </ul>
             </div>
             <div className="col-xs-6 col-sm-6 col-md-4">
-              <h4>Business</h4>
+              <h4>Investments</h4>
               <ul className="list-unstyled quick-links">
                 <li>
                   <a href="https://renesent.com/" target="_blank">
-                    Renesent
+                    Clevertone
+                  </a>
+                </li>
+                <li>
+                  <a href="https://prroperties.com/" target="_blank">
+                  Renesent
                   </a>
                 </li>
                 <li>
                   <a href="https://prroperties.com/" target="_blank">
                     Prroperties
+                  </a>
+                </li>
+                <li>
+                  <a href="https://prroperties.com/" target="_blank">
+                   Trelegate
                   </a>
                 </li>
                 <li>
