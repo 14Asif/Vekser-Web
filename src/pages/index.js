@@ -3,20 +3,61 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { NextSeo } from 'next-seo';
+import BreadcrumbData from "@/components/BreadcrumbData";
+import OrganizationData from "@/components/OrganizationData";
+const breadcrumbData={
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://vekser.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "About",
+    "item": "https://vekser.com/about"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Portfolio",
+    "item": "https://vekser.com/portfolio"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Contact",
+    "item": "https://vekser.com/contact"  
+  }]
+}
+const organizationData={
+  
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Vekser",
+  "url": "https://vekser.com/",
+  "logo": "https://vekser.com/images/vekser-logo.webp",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1(650) 505-5655",
+    "contactType": "customer service",
+    "areaServed": "US",
+    "availableLanguage": "en"
+  },
+  "sameAs": [
+    "https://www.facebook.com/johnvekser",
+    "https://twitter.com/johnvekser",
+    "https://www.instagram.com/johnvekser/",
+    "https://www.linkedin.com/in/johnvekser/"
+  ]
+
+}
+
 function Home() {
   return (
     <>
-      {/* <Head>
-        <title>Vekser | Disruptive Venture Capital Firm</title>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content="Vekser is a venture capital firm that backs bold and courageous entrepreneurs. We focus on early-stage technologies and practical ideas in every field.
-"
-        />
-        <meta name="keywords" content="Vekser, venture capital firm" />
-      </Head> */}
+      <BreadcrumbData data={breadcrumbData} />
+      <OrganizationData data={organizationData} />
         <NextSeo
             title="Vekser | Disruptive Venture Capital Firm"
             description="Vekser is a venture capital firm that backs bold and courageous entrepreneurs. We focus on early-stage technologies and practical ideas in every field."

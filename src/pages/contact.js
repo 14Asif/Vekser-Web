@@ -184,7 +184,7 @@ function Contact() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card card-box p-4">
+              <div className="card card-space card-box p-4">
                 <h3>INDIA</h3>
                 <p>
                   B206, Lodha Supremus, Rd Number 22, Wagle Industrial Estate.
@@ -221,7 +221,7 @@ function Contact() {
             </div>
             <div className="row mt-5">
               <div className="col-md-6">
-                <div className="card card-box p-4">
+                <div className="card  card-box p-4">
                   <h3>ISRAEL</h3>
                   <p>&nbsp;Rothschild 22 Tel Aviv-Yafo, 6688218</p>
                   <a
@@ -234,7 +234,7 @@ function Contact() {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="card card-box p-4">
+                <div className="card  card-space card-box p-4">
                   <h3>NETHERLANDS</h3>
                   <p>&nbsp;Weesperstraat 61, 1018 VN Amsterdam, Netherlands</p>
                   <a
@@ -249,7 +249,7 @@ function Contact() {
             </div>
             <div className="row mt-5 mb-5">
               <div className="col-md-6">
-                <div className="card card-box p-4">
+                <div className="card card-space card-box p-4">
                   <h3>LIMA</h3>
                   <p>
                     &nbsp;Av. Mariscal La Mar 638 (Soho II Building), of. 604,
@@ -266,7 +266,7 @@ function Contact() {
               </div>
 
               <div className="col-md-6">
-                <div className="card card-box p-4">
+                <div className="card card-space card-box p-4">
                   <h3>PORTUGAL</h3>
                   <p> Rua Saraiva de Carvalho 1C, Lisbon, Portugal</p>
                   <a

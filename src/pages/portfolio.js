@@ -47,7 +47,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box  card-space p-4 divsize">
                 <div className="text-center logodiv">
                   <Image
                     src="/images/trelegate logo webp.webp"
@@ -69,7 +69,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center logodiv">
                   <a href="https://algorip.com/" target="_blank">
                   <Image
@@ -97,7 +97,7 @@ function Portfolio() {
           </div>
           <div className="row mt-5">
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center logodiv">
                 <a href="https://renesent.com/" target="_blank">
                   <Image
@@ -120,7 +120,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center logodiv">
                 <a href="https://prroperties.com/" target="_blank">
                   <Image
@@ -145,7 +145,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center mt-5">
                   <Image
                     src="/images/reloship-logo.webp"
@@ -167,7 +167,7 @@ function Portfolio() {
           </div>
           <div className="row mt-5">
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center logodiv">
                   <Image
                     src="/images/Dadadino-logo.webp"
@@ -187,7 +187,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center pt-4 logodiv">
                   <Image
                     src="/images/sparoll-logo.webp"
@@ -209,7 +209,7 @@ function Portfolio() {
               </div>
             </div>
             <div className="col-md-4 ">
-              <div className="card card-box p-4 divsize">
+              <div className="card card-box card-space p-4 divsize">
                 <div className="text-center pt-4">
                   <Image
                     src="/images/takestar-logo.webp"

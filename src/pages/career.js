@@ -49,7 +49,7 @@ function Career() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card card-box p-4">
+              <div className="card card-box card-space p-4">
                 <h4 className="b-5">Ruby On Rails Developer</h4>
                 <ul className="pt-5 pb-5">
                   <li>
@@ -77,7 +77,7 @@ function Career() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card card-box p-4">
+              <div className="card card-box card-space p-4">
                 <h4 className="b-5">Customer Executive</h4>
                 <ul className="pt-5 pb-5">
                   <li>Total work: 1 year </li>
