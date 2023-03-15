@@ -10,11 +10,13 @@ function Header() {
     >
       <Container>
         <Link href="/" passHref className="navbar-brand">
-          <img
-            src="./images/Vekser-logo.png"
+          <Image
+            src="/images/vekser-logo.webp"
             className="img-fuild logo-size"
             alt="vekser-logo"
-            width={""}
+            width={500}
+            height={50}
+            priority
           />
         </Link>
         <Navbar.Toggle aria-controls="navbar-nav" />

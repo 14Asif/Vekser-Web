@@ -104,6 +104,7 @@ section .section-title {
   /* set the default style */
   font-weight: 400 !important;
   color: black !important;
+  padding-right: 35px !important;
 }
 .navbg{
 background-color: white !important;
@@ -345,7 +346,9 @@ font-weight: bolder;
     text-align: center;
     color: black;
   }
-  
+  .mobile-center{
+    text-align: center !important;
+  }
   .banner-text h1 {
     font-size: 1.8em;
     margin-bottom: 0.5em;
@@ -392,13 +395,19 @@ font-weight: bolder;
     text-align: center !important;
     margin-bottom: 30px;
   }
+  .how-img{order:-1;}
+  
+.invest-graphic{
+ 
+  margin-left:0px !important;
+}
 }
 
 .text-style-grow{
  
   max-width: 492px;
   color: rgba(25, 145, 255, 1);
-  font-size: 120.08738708496094px;
+  font-size: 100px;
   font-weight: bolder !important;
   line-height: 81.49999976158142%;
   letter-spacing: 0%;
@@ -451,4 +460,10 @@ text-align: justify !important;
 }
 .danlogo{
   margin-top:78px !important;
+}
+
+
+.invest-graphic{
+ 
+  margin-left: 100px;
 }
