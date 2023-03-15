@@ -49,7 +49,7 @@ function Media() {
               />
               <Image
                 className="img1 img-fluid rounded"
-                src="/images/media-4.webp"
+                src="/images/media-16.webp"
                 width={300}
                 height={300}
                 priority 
@@ -99,6 +99,48 @@ function Media() {
               <Image
                 className="img1 img-fluid rounded"
                 src="/images/media-10.webp"
+                width={300}
+                height={300}
+                priority 
+              />
+            </div>
+            <div className="d-flex flex-column">
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-11.webp"
+                width={300}
+                height={300}
+                priority 
+              />
+            
+            </div>
+            <div className="d-flex flex-column">
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-4.webp"
+                width={300}
+                height={300}
+                priority 
+              />
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-15.webp"
+                width={300}
+                height={300}
+                priority 
+              />
+            </div>
+            <div className="d-flex flex-column">
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-14.webp"
+                width={300}
+                height={300}
+                priority 
+              />
+              <Image
+                className="img1 img-fluid rounded"
+                src="/images/media-13.webp"
                 width={300}
                 height={300}
                 priority 
