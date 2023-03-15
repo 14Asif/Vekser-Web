@@ -38,7 +38,7 @@ function About() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 pt-5">
-              <h1 className="mobile-center">Some backgrounds</h1>
+              <h1 className="mobile-center">Some background</h1>
               <p className="pt-3 text-end mobile-center">
                 Vekser is a venture capital firm founded in 2022 in Miami,
                 Florida. The firm is focused on backing entrepreneurs who are

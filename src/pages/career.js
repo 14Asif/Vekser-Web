@@ -1,5 +1,6 @@
 import React from "react";
 // import Head from 'next/head';
+import Link from "next/link";
 import Image from "next/image";
 import { NextSeo } from "next-seo";
 function Career() {
@@ -16,7 +17,7 @@ function Career() {
         keywords="Private equity careers"
       />
 
-      <section className="section first-text">
+      <section className="section first-text" id="applynow">
         <div className="container ">
           <div className="row">
             <h1 className="text-center m-b b-5">Join Us</h1>
@@ -163,6 +164,17 @@ function Career() {
                 height={400}
                 priority 
               />
+            </div>
+          </div>
+          <div className="row mt-5 mb-5">
+            <div className="text-center">
+              <Link
+                href="#applynow"
+                passHref
+                className="btn btn-primary my-button"
+              >
+                Apply Now
+              </Link>
             </div>
           </div>
         </div>

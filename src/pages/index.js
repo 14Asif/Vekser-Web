@@ -220,6 +220,7 @@ function Home() {
                 />
               </div>
               <div className="col-md-2 text-center pt-3">
+              <a href="https://renesent.com/" target="_blank">
                 <Image
                   src="/images/renesecent-logo.webp"
                   className="img-fluid my-button logo mobile-logo responsive"
@@ -228,8 +229,10 @@ function Home() {
                   priority
                   alt="renesecent-logo"
                 />
+                </a>
               </div>
               <div className="col-md-2 text-center pb-3 ">
+              <a href="https://prroperties.com/" target="_blank">
                 <Image
                   src="/images/properties-logo.webp"
                   className="img-fluid  mobile-logo logo   my-button responsive"
@@ -238,8 +241,10 @@ function Home() {
                   priority
                   alt="properties-logo"
                 />
+                </a>
               </div>
               <div className="col-md-2 text-center pt-3">
+              <a href="https://algorip.com/" target="_blank">
                 <Image
                   src="/images/Algorip-logo.webp"
                   className="img-fluid mobile-logo  logo my-button responsive"
@@ -248,6 +253,7 @@ function Home() {
                   priority
                   alt="Algorip-logo"
                 />
+                </a>
               </div>
               <div className="col-md-2 text-center danlogo">
                 <Image
@@ -256,7 +262,7 @@ function Home() {
                   width={500}
                   height={500}
                   priority
-                  alt="renesecent-logo"
+                  alt="Dandino-logo"
                 />
               </div>
             </div>
