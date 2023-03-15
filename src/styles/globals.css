@@ -322,12 +322,13 @@ font-weight: bolder;
   top: 40%;
   left: 22%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align:left;
   color: black;
 }
 
 .banner-text h1 {
   font-size: 5em;
+  font-weight: bold;
   margin-bottom: 0.5em;
 }
 @media screen and (max-width: 768px) {
@@ -346,7 +347,7 @@ font-weight: bolder;
     top: 40%;
     left: 22%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
     color: black;
   }
   .mobile-center{
@@ -354,6 +355,7 @@ font-weight: bolder;
   }
   .banner-text h1 {
     font-size: 1.8em;
+    font-weight: bold;
     margin-bottom: 0.5em;
   }
   a.btn.btn-primary {
@@ -370,7 +372,7 @@ font-weight: bolder;
   .text-style-grow{ 
        max-width: 492px;
       color: rgba(25, 145, 255, 1);
-      font-size: 60.08738708496094px !important;
+      font-size: 55.08738708496094px !important;
       line-height: 81.49999976158142%;
       letter-spacing: 0%;
       text-align: left;
@@ -407,11 +409,10 @@ font-weight: bolder;
 }
 
 .text-style-grow{
- 
   max-width: 492px;
   color: rgba(25, 145, 255, 1);
   font-size: 100px;
-  font-weight: bolder !important;
+  font-weight:600 !important;
   line-height: 81.49999976158142%;
   letter-spacing: 0%;
   text-align: left;
@@ -468,7 +469,7 @@ text-align: justify !important;
 
 .invest-graphic{
  
-  margin-left: 100px;
+  margin-left: 50px;
 }
 /* FAQ CSS */
 

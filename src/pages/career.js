@@ -35,9 +35,9 @@ function Career() {
                 <ul className="pt-5 pb-5">
                   <li>Google Adwords Certification </li>
                   <li>Digital marketing </li>
-                  <li>Bachelor's </li>
-                  <li>Social media marketing: 1 year </li>
-                  <li>Total work: 1 year </li>
+                  <li>Bachelor's degree </li>
+                  <li>Social media marketing experience: 1 year </li>
+                  <li>Total work experience: 1-2 years </li>
                 </ul>
                 <a
                   href="https://in.indeed.com/job/ppc-manager-google-ads-and-social-media-18c1d30e2fa06261?_ga=2.9483509.1571178406.1675944814-249063284.1671016581"
@@ -80,9 +80,9 @@ function Career() {
               <div className="card card-box card-space p-4">
                 <h4 className="b-5">Customer Executive</h4>
                 <ul className="pt-5 pb-5">
-                  <li>Total work: 1 year </li>
+                  <li>Total work experience: 1 year </li>
                   <li>Customer service: 1 year </li>
-                  <li>English </li>
+                  <li>English fluency </li>
                   <li>Higher Secondary(12th Pass) </li>
                 </ul>
                 <a
@@ -100,7 +100,7 @@ function Career() {
       <section>
         <div className="container first-text">
           <div className="row">
-            <h2 className="b-5 text-center pt-5 pb-5">Why should you Apply</h2>
+            <h2 className="b-5 text-center pt-5 b-5 pb-5">Why should you Apply</h2>
             <div className="col-md-6  pt-4">
               <h2 className="b-5 text-end mobile-center">The Perks</h2>
               <p className="text-end mobile-center">
@@ -156,7 +156,7 @@ function Career() {
             </div>
             <div className="col-md-6">
               <Image
-                src="/images/comunication.webp"
+                src="/images/the comunication.webp"
                 alt="career-team"
                 className="img-fluid img-thumbnail"
                 width={400}

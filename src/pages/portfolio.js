@@ -74,10 +74,10 @@ function Portfolio() {
                   <a href="https://algorip.com/" target="_blank">
                   <Image
                     src="/images/Algorip-logo.webp"
-                    className="img-fluid my-button"
+                    className="img-fluid my-button mt-4"
                     alt="Algorip"
-                    width={500}
-                    height={500}
+                    width={200}
+                    height={400}
                     priority 
                   />
                   </a>

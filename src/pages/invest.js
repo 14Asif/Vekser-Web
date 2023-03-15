@@ -80,13 +80,13 @@ function Invest() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mt-5">
+            <div className="col-md-6 mt-5">
               <Image
                 src="/images/invest-page-graphic.webp"
-                className="img-fluid invest-graphic"
+                className="img-fluid"
                 alt="invest-graphic"
-                width={600}
-                height={500}
+                width={800}
+                height={600}
                 priority 
               />
             </div>

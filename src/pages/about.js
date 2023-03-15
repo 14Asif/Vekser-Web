@@ -114,7 +114,7 @@ function About() {
               ideas.​
             </h2>
             <p className="mb-5 text-end mobile-center">
-              Our aim is to make an impact with companies that solve social an
+              Our aim is to make an impact with companies that solve social and
               economic issues and will help define a new era of technology.
               We have created <br /> top-of-the-line executive resources platform of
               media, executives, technicals, marketing,  technology and
