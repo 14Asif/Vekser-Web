@@ -31,7 +31,7 @@ function footer() {
                 </li>
                 <li>
                   <Link href="/faq" passHref>
-                    FAQ's
+                    FAQs
                   </Link>
                 </li>
                 <li>
