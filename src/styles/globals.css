@@ -212,7 +212,7 @@ font-weight: bolder;
 
 /* Career page CSS */
 .card-box {
-  box-shadow: -10px -7px 20px -5px grey;
+  box-shadow:  5px 5px 2px 1px rgb(211,211,211,0.4);
 }
 .text-deco{
   text-decoration: none;
@@ -406,6 +406,11 @@ font-weight: bolder;
  
   margin-left:0px !important;
 }
+.contactmain{
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
 }
 
 .text-style-grow{
@@ -473,3 +478,23 @@ text-align: justify !important;
 }
 /* FAQ CSS */
 
+.card-box1 {
+  box-shadow: 5px 5px 2px 1px rgb(211,211,211,0.4);
+  border-radius: 5%;
+}
+
+.image img {
+  width: 220px;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.contactmain{
+  display: flex;
+  flex-direction: row !important;
+}
+
+.form-css{
+  margin:auto;
+  width: 450px;
+}

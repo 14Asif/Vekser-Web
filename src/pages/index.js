@@ -85,7 +85,7 @@ function Home() {
               /> */}
         </div>
         <section className="section">
-          <div className="container">
+          <div className="container mt-5">
             <div className="row">
               <div className="col-md-6">
                 <h1 className="b-5">
@@ -121,7 +121,7 @@ function Home() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="container mt-5">
             <div className="row">
               <div className="col-md-12">
                 <h2 className="text-center b-5">
@@ -195,7 +195,7 @@ function Home() {
         <section>
           <div className="container mb-5">
             <div className="row">
-              <h2 className="text-center b-5">Incredible Investments</h2>
+              <h1 className="text-center b-5">Incredible Investments</h1>
             </div>
 
             <div className="row mt-2">
